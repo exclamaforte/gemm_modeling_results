@@ -1,6 +1,21 @@
 - exhaustive.csv: all the data from running exhaustive on hugging face
 - predicted.csv: all the data from running predicted on hugging face
 - default_raw.txt: raw output from running default on hugging face
+- TODO: exhaustive_raw.txt: raw output from running exhaustive on hugging face
 - default.csv: non exhaustive run with default configs results
 - default_compilation_time.csv: how much compile time default max-autotune uses.
--
+- TODO: exhaustive_compilation_time.csv: how much compile time exhaustive max-autotune uses, parsed from exhaustive_raw.txt using parse_compilation.sh
+- TODO: top_1.csv: runtime from running top_1 on hugging face
+- TODO: top_1_raw.txt: raw output from running top_1 on hugging face
+- TODO: top_1_compilation_time.csv: raw output from running top_1 on hugging face
+- TODO: top_5.csv: runtime from running top_5 on hugging face
+- TODO: top_5_raw.txt: raw output from running top_1 on hugging face
+- TODO: top_5_compilation_time.csv: raw output from running top_1 on hugging face
+- TODO: top_10.csv: runtime from running top_10 on hugging face
+- TODO: top_10_raw.txt: raw output from running top_1 on hugging face
+- TODO: top_10_compilation_time.csv: raw output from running top_1 on hugging face
+- TODO: top_20.csv: runtime from running top_20 on hugging face
+- TODO: top_20_raw.txt: raw output from running top_1 on hugging face
+- TODO: top_20_compilation_time.csv: raw output from running top_1 on hugging face
+- TODO: parse_compilation.sh: script to parse compilation time from raw stdout.
+- TODO: graphs.py: scripts to generate graphs from csv files.
