@@ -1,0 +1,6 @@
+- exhaustive.csv: all the data from running exhaustive on hugging face
+- predicted.csv: all the data from running predicted on hugging face
+- default_raw.txt: raw output from running default on hugging face
+- default.csv: non exhaustive run with default configs results
+- default_compilation_time.csv: how much compile time default max-autotune uses.
+-
